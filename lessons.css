@@ -4,7 +4,7 @@ html {
 
 body {
 	font-family: 'AlexBrush' src:
-	url('fonts/AlexBrush-Regular.ttf') format ('ttf');
+	url('piano-website/fonts/AlexBrush-Regular.ttf') format ('ttf');
 	,serif;
 	font-weight: normal;
 	font-style: normal;
@@ -175,7 +175,7 @@ h2 {
 	padding-top:40px;
 	background-image: url(../piano-tiles.png);
 	background-repeat: repeat-x;
-	background-size: 50px;
+	background-size: 60px;
 	width: auto;
 
 }
@@ -231,6 +231,7 @@ img {
 	height: auto;
 	padding-left: 250px;
 	padding-top: 40px;
+	
 
 	
 }
