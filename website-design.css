@@ -173,6 +173,13 @@ h1 {color: purple;}
 		padding-left: 20px;
 	}
 }
+@media screen and (max-width: 320px) {
+	.container {
+		width: auto;
+		padding: auto;
+		margin: auto;
+	}
+}
 
 /*About My Studio Section*/
 
@@ -197,10 +204,24 @@ h2 {
 	width: auto;
 }
 
+
+@media screen and (max-width: 750px) {
+	.content-area { 
+	width: auto;
+	padding: auto;
+	margin: auto; }
+}
 @media screen and (max-width: 480px) {
 	.content-area {
 		padding-top: 20px;
 	}
+}
+
+@media screen and (max-width: 320px) {
+	.content-area { 
+	padding-top:20px;
+	width: auto;
+	margin: auto; }
 }
 
 .main-area { 
