@@ -235,8 +235,8 @@ h2 {
 	float: right;
 	width: 20%;
 	background-color: lightgrey; 
-	padding-left: 10px;
 	padding-right:10px;
+	padding-top:20px;
 	margin-right: 20px;
 	margin-left: 20px;
 
@@ -279,6 +279,7 @@ body li {
 	.main-area {
 		width: 60%;
 		margin: auto;
+		
 		
 		
 	}
