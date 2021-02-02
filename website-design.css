@@ -77,11 +77,14 @@ header h1{
 		border: 2px solid purple;
 	}
 }
+
 @media screen and (max-width: 480px) {
 	.site-nav li {
 		width: 50%;
 	}
 }
+
+
 
 .toggle-btn {
 	color: purple;
@@ -204,7 +207,7 @@ body li {
 
 @media screen and (max-width:700px) {
 	.main-area,
-	.content-area,{
+	.content-area, .sidebar{
 		width:auto;
 		float:none;
 	}
