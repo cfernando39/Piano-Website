@@ -206,14 +206,18 @@ body li {
 }
 
 @media screen and (max-width:700px) {
-	.main-area,
-	.sidebar {
-		width:auto;
+	.main-area {
+		width: 70%;
 		float:none;
-		padding:10px;
+		
 	}
 	.main-area {
-		padding-right: 0;
+		padding: 0;
+	}
+	.sidebar {
+		width: 70%;
+		padding: 0px;
+		float: none;
 	}
 }
 
