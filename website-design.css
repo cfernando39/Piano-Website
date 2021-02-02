@@ -231,6 +231,16 @@ h2 {
 	margin: 20px;
 	 }
 
+.sidebar {
+	float: right;
+	max-width: 20%;
+	background-color: lightgrey; 
+	padding-left: 10px;
+	padding-right:10px;
+	margin-right: 20px;
+	margin-left: 20px;
+
+}
 
 
 body li {
@@ -253,7 +263,7 @@ body li {
 		 }
 @media screen and (max-width: 750px) {
 	.main-area {
-		width: 70%;
+		width: 60%;
 		margin:auto;
 		
 	}
@@ -267,7 +277,7 @@ body li {
 
 @media screen and (max-width:700px) {
 	.main-area {
-		width: 70%;
+		width: 60%;
 		margin: auto;
 		
 		
@@ -287,6 +297,7 @@ body li {
 	.main-area {
 		width:auto;
 		padding-top: 20px;
+		float: none;
 	}
 	.sidebar {
 		width: 70%;
@@ -308,16 +319,7 @@ h3 {
 	color:red;
 }
 
-.sidebar {
-	float: right;
-	max-width: 20%;
-	background-color: lightgrey; 
-	padding-left: 10px;
-	padding-right:10px;
-	margin-right: 20px;
-	margin-left: 20px;
 
-}
 
 
 
