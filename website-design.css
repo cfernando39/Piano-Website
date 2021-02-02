@@ -207,15 +207,15 @@ body li {
 
 @media screen and (max-width: 750px) {
 	.main-area {
-		width: auto;
+		width: 70%;
 		float: none;
-		padding: 0px;
+		margin: auto;
 	}
 
 	.sidebar {
-		width: auto;
+		width: 70%;
 		float: none;
-		padding: 0px;
+		margin: auto;
 
 	}
 }
