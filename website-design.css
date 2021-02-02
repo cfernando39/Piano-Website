@@ -226,8 +226,8 @@ h2 {
 
 .main-area { 
 	float:left;
-	max-width: 70%;
-	margin: auto;
+	width: 70%;
+	margin: 20px;
 	 }
 
 
@@ -240,10 +240,10 @@ body li {
 
 @media screen and (max-width: 768px){ 
 	.main-area { 
-		width:100%;
+		width:90%;
 		float: none;
-		margin: auto;
-		padding: auto; }
+		margin: 20px;
+		padding: 0px; }
 
 	.sidebar {
 		width: 100%;
