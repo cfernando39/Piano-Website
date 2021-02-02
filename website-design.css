@@ -156,7 +156,7 @@ h1 {color: purple;}
 @media screen and (max-width: 768px) {
 	.container {
 		width: auto;
-		margin: auto;
+		margin: 0px;
 		padding: auto;
 	}
 }
@@ -164,7 +164,7 @@ h1 {color: purple;}
 @media screen and (max-width: 750px) {
 	.container { 
 		width: auto; 
-		margin: auto;}
+		margin: 0;}
 }
 
 @media screen and (max-width: 480px) {
@@ -208,8 +208,9 @@ h2 {
 @media screen and (max-width: 750px) {
 	.content-area { 
 	width: auto;
-	padding: auto;
-	margin: auto; }
+	padding: 0;
+	margin: 0; 
+	}
 }
 @media screen and (max-width: 480px) {
 	.content-area {
@@ -221,7 +222,7 @@ h2 {
 	.content-area { 
 	padding-top:20px;
 	width: auto;
-	margin: auto; }
+	margin: 0; }
 }
 
 .main-area { 
@@ -242,14 +243,14 @@ body li {
 	.main-area { 
 		width:90%;
 		float: none;
-		margin: 20px;
+		margin: 0px;
 		padding: 0px; }
 
 	.sidebar {
 		width: 100%;
 		float: none;
-		margin: auto;
-		padding: auto;
+		margin: 0;
+		padding: 0;
 	}
 
 		 }
@@ -257,22 +258,22 @@ body li {
 	.main-area {
 		width: 100%;
 		float: none;
-		margin: auto;
-		padding: none;
+		margin: 0;
+		padding: 0;
 	}
 
 	.sidebar {
 		width: 100%;
 		float: none;
-		margin: auto;
-		padding: none;
+		margin: 0;
+		padding: 0;
 
 	}
 }
 
 @media screen and (max-width:700px) {
 	.main-area {
-		width: 70%;
+		width: auto;
 		float:none;
 		
 	}
@@ -296,6 +297,15 @@ body li {
 		width: 70%;
 		float: none;
 		padding: 0px;
+	}
+}
+@media screen and (max-width: 320px){
+	.main-area, 
+	.sidebar {
+		width: auto;
+		margin: none;
+		padding: none;
+		float: none;
 	}
 }
 
