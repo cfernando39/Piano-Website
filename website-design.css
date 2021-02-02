@@ -271,6 +271,8 @@ body li {
 	.sidebar {
 		width: 30%;
 		margin: auto;
+		padding-left:10px;
+		padding-right: 10px;
 
 	}
 }
@@ -289,6 +291,7 @@ body li {
 	.sidebar {
 		width: 30%;
 		margin: auto;
+		padding-top: 20px;
 		
 		
 	}
@@ -317,7 +320,7 @@ body li {
 	 	padding-top: 20px;
 	 	}
 	 }
-	 
+
 @media screen and (max-width: 320px){
 	.main-area, 
 	.sidebar {
