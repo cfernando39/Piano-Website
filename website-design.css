@@ -205,6 +205,21 @@ body li {
 	color: #a982c4;
 }
 
+@media screen and (max-width: 750px) {
+	.main-area {
+		width: auto;
+		float: none;
+		padding: 0px;
+	}
+
+	.sidebar {
+		width: auto;
+		float: none;
+		padding: 0px;
+
+	}
+}
+
 @media screen and (max-width:700px) {
 	.main-area {
 		width: 70%;
@@ -218,6 +233,19 @@ body li {
 		width: 70%;
 		padding: 0px;
 		float: none;
+	}
+}
+
+@media screen and (max-width: 640px) {
+	.main-area {
+		width:auto;
+		float:none;
+		padding: none;
+	}
+	.sidebar {
+		width: 70%;
+		float: none;
+		padding: 0px;
 	}
 }
 
