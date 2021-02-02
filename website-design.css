@@ -241,30 +241,26 @@ body li {
 
 @media screen and (max-width: 768px){ 
 	.main-area { 
-		width:90%;
-		float: none;
+		width: 60%;
 		margin: 0px;
 		padding: 0px; }
 
 	.sidebar {
-		width: 100%;
-		float: none;
-		margin: 0;
-		padding: 0;
+		width: 20%;
+		margin: 20px;
+		padding: 20px;
 	}
 
 		 }
 @media screen and (max-width: 750px) {
 	.main-area {
-		width: 100%;
-		float: none;
+		width: 70%;
 		margin: 0;
 		padding: 0;
 	}
 
 	.sidebar {
-		width: 100%;
-		float: none;
+		width: 30%;
 		margin: 0;
 		padding: 0;
 
@@ -273,24 +269,23 @@ body li {
 
 @media screen and (max-width:700px) {
 	.main-area {
-		width: auto;
-		float:none;
+		width: 70%;
+		
 		
 	}
 	.main-area {
 		padding: 0;
 	}
 	.sidebar {
-		width: 70%;
-		padding: 0px;
-		float: none;
+		width: 20%;
+		padding: 10px;
+		
 	}
 }
 
 @media screen and (max-width: 640px) {
 	.main-area {
 		width:auto;
-		float:none;
 		padding: none;
 	}
 	.sidebar {
