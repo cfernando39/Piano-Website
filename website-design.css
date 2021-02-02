@@ -138,7 +138,7 @@ h1 {color: purple;}
 
 @media screen and (min-width: 1300px) {
 	.container {
-		max-width: 1200px;
+		max-width: auto;
 		font-size: 17px;
 
 	}
@@ -149,10 +149,22 @@ h1 {color: purple;}
 		margin-right: auto;
 		margin-left: auto;
 		margin-top: 20px;
-		padding-left: 20px;
-		padding-right: 20px;
-		max-width: 1200px;
+		max-width: auto;
 	}
+}
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: auto;
+		margin: auto;
+		padding: auto;
+	}
+}
+
+@media screen and (max-width: 750px) {
+	.container { 
+		width: auto; 
+		margin: auto;}
 }
 
 @media screen and (max-width: 480px) {
