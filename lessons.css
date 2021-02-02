@@ -15,7 +15,7 @@ body {
 
 /*Intro Section */ 
 header { 
-	background-image: url(notes.png); 
+	background-image:url(notes.png); 
 	background-repeat: no-repeat;
 	background-position: right;
 	background-size: 60%;
