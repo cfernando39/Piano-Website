@@ -208,7 +208,7 @@ h2 {
 @media screen and (max-width: 750px) {
 	.content-area { 
 	width: auto;
-	padding: 0;
+	padding-top: 20px;
 	margin: 0; 
 	}
 }
@@ -274,8 +274,9 @@ body li {
 		padding: 0;
 	}
 	.sidebar {
-		width: 20%;
+		width: 30%;
 		padding: 10px;
+		float: none;
 		
 	}
 }
@@ -283,20 +284,20 @@ body li {
 @media screen and (max-width: 640px) {
 	.main-area {
 		width:auto;
-		padding: none;
+		padding-top: 20px;
 	}
 	.sidebar {
 		width: 70%;
 		float: none;
-		padding: 0px;
+		padding-top:20px;
 	}
 }
 @media screen and (max-width: 320px){
 	.main-area, 
 	.sidebar {
 		width: auto;
-		margin: none;
-		padding: none;
+		margin: 20px;
+		padding: 10px;
 		float: none;
 	}
 }
