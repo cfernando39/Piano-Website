@@ -242,27 +242,24 @@ body li {
 @media screen and (max-width: 768px){ 
 	.main-area { 
 		width: 60%;
-		margin: 0px;
-		padding: 0px; }
+		 }
 
 	.sidebar {
 		width: 20%;
-		margin: 20px;
-		padding: 20px;
+		margin: 10px;
+		padding: 10px;
 	}
 
 		 }
 @media screen and (max-width: 750px) {
 	.main-area {
 		width: 70%;
-		margin: 0;
-		padding: 0;
+		
 	}
 
 	.sidebar {
 		width: 30%;
-		margin: 0;
-		padding: 0;
+		
 
 	}
 }
