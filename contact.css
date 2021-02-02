@@ -4,7 +4,7 @@ html {
 
 body {
 	font-family: 'AlexBrush' src:
-	url('fonts/AlexBrush-Regular.ttf') format ('ttf');
+	url('piano/website/fonts/AlexBrush-Regular.ttf') format ('ttf');
 	,serif;
 	font-weight: normal;
 	font-style: normal;
@@ -170,9 +170,9 @@ h2 {
 .content-area { 
 	border-top: 2px solid purple;
 	border-bottom: 2px solid purple; 
-	background-image: url(../piano-tiles.png);
+	background-image: url(piano-tiles.png);
 	background-repeat: repeat-x;
-	background-size: 50px;
+	background-size: 60px;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-bottom: 20px;
