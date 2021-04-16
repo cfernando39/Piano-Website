@@ -86,11 +86,10 @@ header h1{
 @media screen and (max-width: 480px) {
 	.site-nav li {
 		width: 100%;
-		margin-bottom: 5px; 
+		margin-right: 40px; 
 
 	}
-	.site-nav a { 
-	font-size: 120%; }
+	
 }
 
 /*Media query for toggle buttons */ 

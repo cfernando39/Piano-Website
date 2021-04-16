@@ -88,10 +88,7 @@ header h1{
 @media screen and (max-width: 480px) {
 	.site-nav li {
 		width: 100%;
-	}
-
-	.site-nav a {
-		margin-bottom: 5px;
+		margin-right: 40px;
 	}
 }
 
@@ -168,7 +165,6 @@ header h1{
 	display: block;
 	}
 
-
 }
 
 
@@ -184,11 +180,8 @@ header h1{
 	.toggle-btn-photos-visible {
 		display:block;
 	}
-	
-	}
-	
 
-	
+	}
 
 @media screen and (min-width: 481px) {
 	.toggle-btn-photos-visible {
@@ -198,7 +191,7 @@ header h1{
 	.toggle-target-expanded {
 		display: block;
 	}
-}
+} 
 
 
 /*end reveal and hide styles*/
