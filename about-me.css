@@ -466,7 +466,10 @@ top:30%;}
 	.thumbnails img {
 		max-width: auto;
 		height: auto;
+		display: none;
 	}
+
+
 }
 
 
