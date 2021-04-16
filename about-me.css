@@ -187,14 +187,14 @@ header h1{
 
 	}
 
-@media screen and (min-width: 481px) {
+@media screen and (min-width: 500px) {
 	.toggle-btn-photos-visible {
 		display: none;
 	}
 
 
 	}
-
+}
 
 
 /*end reveal and hide styles*/
