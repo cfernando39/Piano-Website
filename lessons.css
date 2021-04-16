@@ -27,6 +27,9 @@ header {
 	header {
 		background-image: none;
 	}
+	h1 {
+		font-size: 150%;
+	}
 
 }
 
