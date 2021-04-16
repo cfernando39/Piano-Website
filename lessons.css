@@ -23,6 +23,11 @@ background-image: url(../Piano-Website/notes.png);
 	
 }
 
+@media screen and (max-width: 480px) { 
+	header { 
+	background-image: none; } 
+
+}
 
 
 
@@ -83,12 +88,11 @@ header h1{
 @media screen and (max-width: 480px) {
 	.site-nav li {
 		width: 100%;
+		margin-right:5px;
 
 	}
 	.site-nav a { 
-	margin-bottom:5px; 
-	padding-right: 5px;
-	font-size: 50%;
+	font-size: 120%;
 } 
 
 /*Menu toggle button */ 
