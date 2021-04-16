@@ -175,13 +175,20 @@ header h1{
 	.toggle-btn-photos-visible {
 		display: block;
 	}
-	
+
 }
 
 	 
 @media screen and (max-width: 480px) {
 	.toggle-btn-photos-visible {
 		display:block;
+	}
+	.toggle-target-hidden {
+	display: none;
+	}
+
+	.toggle-target-expanded {
+	display: block;
 	}
 
 	}
