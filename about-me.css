@@ -184,12 +184,6 @@ header h1{
 	.toggle-btn-photos-visible {
 		display:block;
 	}
-	.toggle-target-photos-expanded {
-		display: block;
-	}
-	.toggle-target-photos-hidden {
-		display: none;
-	}
 	
 	}
 	
