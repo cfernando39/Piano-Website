@@ -183,10 +183,10 @@ header h1{
 		display:block;
 	}
 	.toggle-target-photos-expanded {
-		display: block;
+		display: inline;
 	}
 	.toggle-target-photos-hidden {
-		display: inline;
+		display: block;
 	}
 	
 	}
@@ -466,10 +466,7 @@ top:30%;}
 	.thumbnails img {
 		max-width: auto;
 		height: auto;
-		display: none;
 	}
-
-
 }
 
 
