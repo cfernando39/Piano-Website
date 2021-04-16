@@ -134,15 +134,13 @@ header h1{
 .toggle-btn-photos {
 	color:purple;
 	text-decoration: underline;
+	display: none;
 }
 
 .toggle-btn-photos:hover {
 	text-decoration: none;
 }
 
-.toggle-btn-photos {
-	display: none;
-}
 
 
 
@@ -190,9 +188,7 @@ header h1{
 	.toggle-target-photos-hidden {
 		display: none;
 	}
-	.thumbnails img {
-		display: none;
-	}
+	
 	}
 	
 
