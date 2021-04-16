@@ -4,7 +4,7 @@ html {
 
 body {
 	font-family: 'AlexBrush' src:
-	url('piano/website/fonts/AlexBrush-Regular.ttf') format ('ttf');
+	url('Piano-Website/fonts/AlexBrush-Regular.ttf') format ('ttf');
 	,serif;
 	font-weight: normal;
 	font-style: normal;
@@ -15,7 +15,7 @@ body {
 
 /*Intro Section */ 
 header { 
-	background-image: url(../Websites/notes.png); 
+	background-image: url(../Piano-Website/notes.png); 
 	background-repeat: no-repeat;
 	background-position: right;
 	background-size: 30%;
@@ -164,7 +164,7 @@ h2 {
 .content-area { 
 	border-top: 2px solid purple;
 	border-bottom: 2px solid purple; 
-	background-image: url(../Websites/piano-tiles.png);
+	background-image: url(../Piano-Website/piano-tiles.png);
 	background-repeat: repeat-x;
 	background-size: 60px;
 	padding-left: 20px;
