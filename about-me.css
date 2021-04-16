@@ -183,10 +183,10 @@ header h1{
 		display:block;
 	}
 	.toggle-target-photos-expanded {
-		display: none;
+		display: block;
 	}
 	.toggle-target-photos-hidden {
-		display: block;
+		display: none;
 	}
 	
 	}
