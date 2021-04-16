@@ -164,6 +164,12 @@ header h1{
 
 h1 {color: purple;}
 
+@media screen and (max-width: 480px) {
+	h1 {
+		font-size: 120%;
+	}
+}
+
 .container { 
 	max-width: 95%;
 	margin:auto;
