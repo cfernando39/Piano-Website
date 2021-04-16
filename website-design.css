@@ -258,7 +258,7 @@ h3 {
 /*End of side bar section */ 
 
 /*Media Query -- Main area and side bar */ 
-@media screen and (min-width: 700px) { 
+@media screen and (min-width: 701px) { 
 	.main-area {
 		padding-left:15px;
 		} 
