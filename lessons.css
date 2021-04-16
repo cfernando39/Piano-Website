@@ -85,9 +85,14 @@ header h1{
 }
 @media screen and (max-width: 480px) {
 	.site-nav li {
-		width: 80%;
+		width: 100%;
+
 	}
-}
+	.site-nav a { 
+	margin-bottom:5px; 
+	padding-right: 5px;
+	font-size: 20%;
+} 
 
 /*Menu toggle button */ 
 
