@@ -69,6 +69,7 @@ header h1{
 	margin-right: 5px;
 }
 
+/* Media Query for site nav element */ 
 @media screen and (max-width: 700px) {
 	.site-nav li {
 		width: 50%;
@@ -85,9 +86,14 @@ header h1{
 @media screen and (max-width: 480px) {
 	.site-nav li {
 		width: 100%;
+		margin-bottom: 5px; 
+
 	}
+	.site-nav a { 
+	font-size: 120%; }
 }
 
+/*Media query for toggle buttons */ 
 
 .toggle-btn {
 	color: purple;
@@ -138,9 +144,9 @@ h1 {color: purple;}
 	background-color: #FFF;	
 	box-sizing: border-box;
 	padding-top: 20px;
-
-	
 } 
+
+/*Media Query for Container */ 
 
 @media screen and (min-width: 1300px) {
 	.container {
