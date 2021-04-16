@@ -4,7 +4,7 @@ html {
 
 body {
 	font-family: 'AlexBrush' src:
-	url('Piano-Website/fonts/AlexBrush-Regular.ttf') format ('ttf');
+	url('../Piano-Website/fonts/AlexBrush-Regular.ttf') format ('ttf');
 	,serif;
 	font-weight: normal;
 	font-style: normal;
@@ -25,6 +25,9 @@ header {
 @media screen and (max-width: 480px) {
 	header {
 		background-image: none;
+	}
+	h1 {
+		font-size: 150%;
 	}
 }
 
