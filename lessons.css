@@ -88,7 +88,7 @@ header h1{
 @media screen and (max-width: 480px) {
 	.site-nav li {
 		width: 100%;
-		margin-right:5px;
+		margin-right:10px;
 
 	}
 	.site-nav a { 
@@ -210,7 +210,11 @@ table {
 	
 }
 
-
+@media screen and (max-width: 480px) {
+	table {
+		width: auto;
+	}
+}
 
 .col-time {
 	width: 30%;
