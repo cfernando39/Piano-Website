@@ -171,9 +171,6 @@ header h1{
 }
 
 
-.thumbnails .toggle-btn-photos-visible {
-	display: none;
-}
 	 
 @media screen and (max-width: 480px) {
 	.toggle-btn-photos-visible {
