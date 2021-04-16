@@ -22,7 +22,11 @@ background-image: url(../Piano-Website/notes.png);
 	padding-left: 20px;
 	
 }
-
+@media screen and (max-width: 480px) {
+	header {
+		background-image: none;
+	}
+}
 
 
 header h1{

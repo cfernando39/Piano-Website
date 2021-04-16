@@ -20,6 +20,13 @@ header {
 	background-position: right;
 	background-size: 30%;
 	padding-left: 20px;
+
+}
+
+@media screen and (max-width: 480px) {
+	header {
+		background-image: none;
+	}
 }
 
 header h1{
