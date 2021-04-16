@@ -286,7 +286,9 @@ h3 {
 
  }
 
-
+.item {
+	text-align: center;
+}
 
 
 /*End of Studio Section*/ 
