@@ -22,6 +22,11 @@ header {
 	padding-left: 20px; 
 }
 
+@media screen and (max-width: 480px) {
+	header {
+		background-image: none;
+	}
+}
 
 
 header h1{
@@ -89,13 +94,7 @@ header h1{
 	margin-bottom:5px; 
 } 
 
-	header {
-		background-image: none;
-	}
-
-	.toggle-btn-1 {
-		display: none;
-	}
+	
 }
 
 /*Toggle Button for Menu */ 
