@@ -449,6 +449,12 @@ top:30%;}
 	display: block;
 
 }
+@media screen and (max-width: 480px) {
+	.thumbnails img {
+		max-width: auto;
+		height: auto;
+	}
+}
 
 
 
