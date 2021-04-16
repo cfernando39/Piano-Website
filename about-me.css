@@ -183,7 +183,7 @@ header h1{
 		display:block;
 	}
 	.toggle-target-photos-expanded {
-		display: block;
+		display: none;
 	}
 	.toggle-target-photos-hidden {
 		display: none;
