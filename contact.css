@@ -152,13 +152,13 @@ h1 {color: purple;}
 
 @media screen and (min-width: 1300px) {
 	.container {
-		font-size: 20px;
+		font-size: 17px;
 
 	}
 }
 @media screen and (min-width: 1200px) {
 	.container {
-		font-size: 20px;
+		font-size: 17px;
 		
 	}
 }
@@ -189,6 +189,12 @@ h2 {
 	box-sizing: border-box;
 	
 }
+
+@media screen and (min-width: 1200px) {
+	.content-area {
+		font-size: 20px;
+	}
+} 
 
 
 @-webkit-keyframes spin {
