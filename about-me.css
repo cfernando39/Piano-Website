@@ -186,7 +186,7 @@ header h1{
 		display: none;
 	}
 	.toggle-target-photos-hidden {
-		display: block;
+		display: none;
 	}
 	.thumbnails {
 		display:  none;
