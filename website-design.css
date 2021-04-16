@@ -264,7 +264,8 @@ h3 {
 		} 
 		.sidebar { 
 		padding-left:5px;
-		margin-left: 5px; }}
+		margin-left: 5px; 
+		padding-top:5px;}}
 
 
 @media screen and (max-width: 700px) { 
@@ -276,7 +277,12 @@ h3 {
 	}
 	.main-area { 
 	padding-left:10px;
-	padding-right: 10px; }
+	padding-right: 10px;
+	 }
+
+	.sidebar {
+		padding:5px;
+	}
 
 
  }
