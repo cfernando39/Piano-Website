@@ -180,10 +180,10 @@ header h1{
 	 
 @media screen and (max-width: 480px) {
 	.toggle-btn-photos-visible {
-		display:block;
+		display:none;
 	}
 	.toggle-target-photos-expanded{
-		display: block;
+		display: none;
 	}
 	.toggle-target-photos-hidden {
 		display: block;
