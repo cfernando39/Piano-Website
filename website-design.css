@@ -92,6 +92,8 @@ header h1{
 	}
 	.site-nav a { 
 	margin-bottom:5px; 
+	padding-right: 5px;
+	font-size: 5%;
 } 
 
 	
@@ -154,6 +156,12 @@ header h1{
 	display: block;
 	}
 
+}
+
+@media screen and (max-width: 480px) {
+	.toggle-btn-1 {
+		font-size: 12px;
+	}
 }
 /*end reveal and hide styles*/
 
