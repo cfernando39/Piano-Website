@@ -212,7 +212,7 @@ table {
 
 @media screen and (max-width: 480px) {
 	table {
-		width: auto;
+		width: 100%;
 	}
 }
 
