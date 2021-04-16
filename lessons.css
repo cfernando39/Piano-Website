@@ -197,6 +197,7 @@ h2 {
 	background-repeat: repeat-x;
 	background-size: 60px;
 	width: auto;
+	box-sizing: border-box;
 
 }
 
