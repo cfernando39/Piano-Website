@@ -134,7 +134,7 @@ header h1{
 .toggle-btn-photos {
 	color:purple;
 	text-decoration: underline;
-	display: none;
+	display: block;
 }
 
 .toggle-btn-photos:hover {
