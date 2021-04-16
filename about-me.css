@@ -134,8 +134,10 @@ header h1{
 .toggle-btn-photos {
 	color:purple;
 	text-decoration: underline;
-	display: block;
+	display: block; 
 }
+
+/* changed display to block, was origninally at none: */ 
 
 .toggle-btn-photos:hover {
 	text-decoration: none;
@@ -186,7 +188,7 @@ header h1{
 		display: block;
 	}
 	.toggle-target-photos-hidden {
-		display: block;
+		display: none;
 	}
 	
 	}
