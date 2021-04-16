@@ -4,7 +4,7 @@ html {
 
 body {
 	font-family: 'AlexBrush' src:
-	url('Piano-Website/fonts/AlexBrush-Regular.ttf') format ('ttf');
+	url('piano-website/fonts/AlexBrush-Regular.ttf') format ('ttf');
 	,serif;
 	font-weight: normal;
 	font-style: normal;
@@ -15,18 +15,12 @@ body {
 
 /*Intro Section */ 
 header { 
-background-image: url(../Piano-Website/notes.png); 
+background-image: url(Websites/notes.png); 
 	background-repeat: no-repeat;
 	background-position: right;
 	background-size: 30%;
 	padding-left: 20px;
 	
-}
-
-@media screen and (max-width: 480px) { 
-	header { 
-	background-image: none; } 
-
 }
 
 
@@ -87,11 +81,8 @@ header h1{
 }
 @media screen and (max-width: 480px) {
 	.site-nav li {
-		width: 100%;
-		margin-right:40px;
-
+		width: 80%;
 	}
-
 }
 
 /*Menu toggle button */ 
@@ -191,11 +182,10 @@ h2 {
 	padding-right: 20px;
 	padding-bottom: 20px;
 	padding-top:40px;
-	background-image: url(../Piano-Website/piano-tiles.png);
+	background-image: url(Websites/piano-tiles.png);
 	background-repeat: repeat-x;
 	background-size: 60px;
 	width: auto;
-	box-sizing: border-box;
 
 }
 
@@ -208,16 +198,7 @@ table {
 	
 }
 
-@media screen and (max-width: 480px) {
-	table {
-		width: auto;
-	}
-	.lessons {
-		display: block;
-		margin-right: auto;
-		margin-left: auto;
-	}
-}
+
 
 .col-time {
 	width: 30%;
