@@ -20,10 +20,7 @@ header {
 	background-position: right;
 	background-size: 30%;
 	padding-left: 20px;
-
 }
-
-
 
 header h1{
 	padding-top: 20px;
@@ -84,14 +81,13 @@ header h1{
 	
 @media screen and (max-width: 480px) {
 	.site-nav li {
-		width: 100%;
-
+		width: 80%;
 	}
-	.site-nav a { 
-	margin-bottom:5px; 
-	padding-right: 5px;
-	font-size: 50%;
-} 
+
+	.site-nav a {
+		margin-bottom: 5px;
+	}
+}
 
 /* Toggle Button for Menu */ 
 .toggle-btn-1 {
