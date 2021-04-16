@@ -182,7 +182,7 @@ header h1{
 	.toggle-btn-photos-visible {
 		display:block;
 	}
-	.toggle-target-photos{
+	.toggle-target{
 		display: none;
 	}
 	.toggle-target-photos-hidden {
