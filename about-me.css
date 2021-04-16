@@ -192,10 +192,9 @@ header h1{
 		display: none;
 	}
 
-	.toggle-target-expanded {
-		display: block;
+
 	}
-} 
+
 
 
 /*end reveal and hide styles*/
