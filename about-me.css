@@ -184,6 +184,9 @@ header h1{
 	.toggle-btn-photos-visible {
 		display:block;
 	}
+	.toggle-target-expanded {
+		display: block;
+	}
 
 	}
 
