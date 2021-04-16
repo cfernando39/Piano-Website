@@ -177,11 +177,11 @@ header h1{
 	.toggle-btn-photos-visible {
 		display:block;
 	}
-	.toggle-target-hidden {
+	.toggle-target-photos-hidden {
 	display: none;
 	}
 
-	.toggle-target-expanded {
+	.toggle-target-photos-expanded {
 	display: block;
 	}
 
