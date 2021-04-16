@@ -188,7 +188,7 @@ header h1{
 		display: block;
 	}
 	.toggle-target-photos-hidden {
-		display: block;
+		display: none;
 	}
 	.thumbnails img {
 		display: none;
@@ -196,7 +196,7 @@ header h1{
 	}
 	
 
-	}
+	
 
 @media screen and (min-width: 481px) {
 	.toggle-btn-photos-visible {
