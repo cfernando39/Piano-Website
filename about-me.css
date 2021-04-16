@@ -187,9 +187,10 @@ header h1{
 	.toggle-target-expanded {
 		display: none;
 	}
-	img {
-		display: hidden;
+	.toggle-target-hidden {
+		display: none;
 	}
+	
 
 	}
 
