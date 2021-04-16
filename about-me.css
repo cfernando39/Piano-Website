@@ -189,7 +189,7 @@ header h1{
 		display: block;
 	}
 	.thumbnails {
-		visibility:  hidden;
+		display:  hidden;
 	}
 	
 	}
