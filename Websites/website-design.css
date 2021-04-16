@@ -1,0 +1,310 @@
+html {
+	background-color:#e4cceb;
+	}
+
+body {
+	font-family: 'AlexBrush' src:
+	url('piano-website/fonts/AlexBrush-Regular.ttf') format ('ttf');
+	,serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 87%;
+	text-align: justify;
+}
+
+
+/*Intro Section */ 
+header { 
+	background-image: url(../Websites/notes.png); 
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 30%;
+	padding-left: 20px; 
+}
+
+
+
+header h1{
+	padding-top: 20px;
+	color: purple;	
+	margin: 0;
+	font-weight: lighter;
+
+
+}
+
+
+/*site nav*/
+.site-nav {
+	padding-top: 30px;
+}
+.site-nav a { 
+	display: block;
+	color: purple;
+	text-decoration: none;
+	padding: 10px 30px;
+	border: 2px solid purple;
+	border-bottom: none;
+	transition-property: color, background-color;
+	transition-duration: 1s;
+}
+
+
+.site-nav a:hover {
+	background-color:#e4cceb ;
+}
+
+.site-nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+/* li targets the list element */ 
+.site-nav li {
+	list-style: none;
+	float: left;
+	margin-right: 5px;
+}
+
+/* Media Queries for Site Nav elements */ 
+@media screen and (max-width: 700px) {
+	.site-nav li {
+		width: 50%;
+		margin-right: 0;
+	}
+	.site-nav a {
+		padding: 15px 0;
+		margin-right: 5px;
+		margin-bottom: 5px;
+		text-align: center;
+		border: 2px solid purple;
+	}
+}
+@media screen and (max-width: 480px) {
+	.site-nav li {
+		width: 80%;
+
+	}
+	.site-nav a { 
+	margin-bottom:5px; }
+}
+
+/*Toggle Button for Menu */ 
+.toggle-btn-1 {
+	color: purple;
+	text-decoration: underline;
+	padding-top:5px;
+	padding-bottom: 5px;
+
+}
+
+.toggle-btn-1:hover { 
+	text-decoration: none; 
+}
+
+
+/*Toggle Button for Read more  */ 
+.toggle-btn {
+	color: purple;
+
+
+}
+/*Reveal and Hide Styles*/
+.read-more{
+	text-decoration: underline;
+	color: purple;
+	
+}
+
+.read-more:hover {
+	text-decoration: none;
+}
+
+.toggle-btn-1{
+	display: none;
+}
+
+
+/*Media Query for Toggle Button */ 
+@media screen and (min-width: 768px) {
+	.toggle-btn-visible {
+		display: none;
+	}
+}
+
+
+@media screen and (max-width: 767px) {
+	.toggle-btn-visible {
+	display:block;
+	}
+
+.toggle-target-hidden {
+	display: none;
+	}
+
+.toggle-target-expanded {
+	display: block;
+	}
+
+}
+/*end reveal and hide styles*/
+
+/* a references the link element*/ 
+
+
+/*End of Intro Section */
+
+
+h1 {color: purple;}
+
+.container { 
+	max-width: 95%;
+	margin:auto;
+	background-color: #FFF;
+	box-sizing: border-box;
+	padding-top: 20px;	
+
+} 
+
+/*Media Queries for Container element*/ 
+
+@media screen and (min-width: 1300px) { 
+	.container { 
+		font-size: 17px;
+	 }
+@media screen and (min-width: 980px) {
+	.container { 
+	font-size: 17px; 
+	
+	}
+}
+
+
+ }
+
+/*End of Media Queries for Container element */ 
+
+
+/*About My Studio Section*/
+
+h2 {
+	font-weight: normal;
+	text-align: center;
+	color: purple;
+	padding-top: 5px;	
+}
+
+
+.content-area { 
+	border-top: 2px solid purple;
+	border-bottom: 2px solid purple; 
+	background-image: url(../Websites/piano-tiles.png);
+	background-repeat: repeat-x;
+	background-size: 60px;
+	padding-top: 40px;
+	padding-right:20px;
+	padding-left: 20px;
+	width:auto;
+}
+
+/*Text of main area section */ 
+
+.main-area { 
+	float:left;
+	width: 60%;
+	margin:auto;
+	box-sizing: border-box;
+	
+	 }
+
+		body li {
+			text-align: center;
+			list-style: none;
+			color: #a982c4;
+		}
+
+/*End of main area section */ 
+
+/*Sidebar section*/
+
+h3 {
+	color:red;
+}
+
+.sidebar {
+	float: right;
+	width: 30%; 
+	padding-left: 10px;
+	padding-right:10px;
+	margin-top: 15px;
+	margin-right: 20px;
+	margin-left: 20px;
+	box-sizing: border-box;
+	background-color: lightgrey;
+	
+}
+
+/*End of side bar section */ 
+
+/*Media Query -- Main area and side bar */ 
+@media screen and (min-width: 700px) { 
+	.main-area {
+		padding-left:15px;
+		} 
+		.sidebar { 
+		padding-left:5px;
+		margin-left: 5px; }}
+
+
+@media screen and (max-width: 700px) { 
+	.main-area,
+	.sidebar {
+		width:auto;
+		float:none;
+
+	}
+	.main-area { 
+	padding-left:10px;
+	padding-right: 10px; }
+
+
+ }
+
+
+
+
+/*End of Studio Section*/ 
+footer {
+	text-align: center;
+	color: purple;
+	padding-bottom: 20px;
+	padding-top:none;
+}
+.row:before,
+.row:after {
+	content: "";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+.row {
+	zoom: 1;
+}
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}
+

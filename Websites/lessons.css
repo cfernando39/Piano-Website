@@ -1,0 +1,300 @@
+html {
+	background-color:#e4cceb;
+	}
+
+body {
+	font-family: 'AlexBrush' src:
+	url('piano-website/fonts/AlexBrush-Regular.ttf') format ('ttf');
+	,serif;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 87%;
+	text-align: justify;
+}
+
+
+/*Intro Section */ 
+header { 
+background-image: url(../Websites/notes.png); 
+	background-repeat: no-repeat;
+	background-position: right;
+	background-size: 30%;
+	padding-left: 20px;
+	
+}
+
+
+
+header h1{
+	padding-top: 20px;
+	color: purple;	
+	margin: 0;
+	font-weight: lighter;
+}
+
+
+/*site nav*/
+.site-nav {
+	padding-top: 30px;
+}
+.site-nav a { 
+	display: block;
+	color: purple;
+	text-decoration: none;
+	padding: 10px 30px;
+	border: 2px solid purple;
+	border-bottom: none;
+	transition-property: color, background-color;
+	transition-duration: 1s;
+}
+
+
+.site-nav a:hover {
+	background-color:#e4cceb ;
+}
+
+.site-nav ul {
+	margin: 0;
+	padding: 0;
+}
+
+/* li targets the list element */ 
+.site-nav li {
+	list-style: none;
+	float: left;
+	margin-right: 5px;
+}
+
+/* Media Queries for Site Nav elements */ 
+@media screen and (max-width: 700px) {
+	.site-nav li {
+		width: 50%;
+		margin-right: 0;
+	}
+	.site-nav a {
+		padding: 15px 0;
+		margin-right: 5px;
+		margin-bottom: 5px;
+		text-align: center;
+		border: 2px solid purple;
+	}
+}
+@media screen and (max-width: 480px) {
+	.site-nav li {
+		width: 80%;
+	}
+}
+
+/*Menu toggle button */ 
+
+.toggle-btn-1 {
+	color: purple;
+	display: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-decoration: underline;
+}
+
+.toggle-btn-1:hover {
+	text-decoration: none;
+}
+
+
+/*Read-more toogle button*/ 
+.toggle-btn {
+	color: purple;
+	display: none;
+
+}
+/*Reveal and Hide Styles*/
+.read-more{
+	text-decoration: underline;
+	color: purple;
+}
+
+.read-more:hover {
+	text-decoration: none;
+}
+
+/* Media Query for Toggle Buttons */ 
+@media screen and (min-width: 768px) {
+	.toggle-btn-visible {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 767px) {
+	.toggle-btn-visible {
+	display:block;
+	}
+
+.toggle-target-hidden {
+	display: none;
+	}
+
+.toggle-target-expanded {
+	display: block;
+	}
+}
+/* a references the link element*/ 
+
+
+/*End of Intro Section */
+h1 {color: purple;}
+
+.container { 
+	max-width: 95%;
+	margin:auto;
+	background-color: #FFF;	
+	box-sizing: border-box;
+	padding-top: 20px;
+	
+} 
+
+@media screen and (min-width: 1300px) {
+	.container {
+		font-size: 17px;
+
+	}
+}
+@media screen and (min-width: 980px) {
+	.container {
+		font-size: 17px;
+	}
+}
+
+
+
+
+h2 {
+	font-weight: normal;
+	text-align: center;
+	color: purple;
+	padding-top: 5px;	
+}
+
+
+
+.content-area { 
+	border-top: 2px solid purple;
+	border-bottom: 2px solid purple; 
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-top:40px;
+	background-image: url(../Websites/piano-tiles.png);
+	background-repeat: repeat-x;
+	background-size: 60px;
+	width: auto;
+
+}
+
+table { 
+	border-spacing: 0px; 
+	border-collapse: collapse;
+	width: 60%;	
+	margin-left: 20%;
+	margin-right: 20%;
+	
+}
+
+
+
+.col-time {
+	width: 30%;
+	text-align: center;
+
+	
+}
+
+.col-price {
+	width: 20%;
+	text-align: center;
+}
+
+.col-number {
+	width: 20%;
+	text-align: center;
+}
+
+.col-cost {
+	width: 30%;
+	text-align: center;
+}
+
+table th {
+	text-align: left;
+	background-color: #e4cceb;
+	text-shadow: rgba(0, 0, 0, .4);
+}
+
+table th, 
+table td {
+	border: 1px solid purple;
+	padding: 8px;
+	vertical-align: top;
+}
+
+table.lessons tr:nth-child(1),
+table.lessons tr:nth-child(2),
+table.lessons tr:nth-child(3) {
+	text-align: center;
+}
+
+img {
+	max-width: 30%;
+	height: auto;
+	margin-top: 15px;
+}
+
+.center {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+	
+
+
+
+@media screen and (max-width:700px) {
+	.main-area {
+		width:auto;
+		float:none;
+		padding-right: 0;
+	}
+}
+
+footer {
+	text-align: center;
+	color: purple;
+	padding-bottom: 20px;
+}
+
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}
+
+.row:before,
+.row:after {
+	content: "";
+	display: table;
+}
+
+.row:after {
+	clear: both;
+}
+
+.row {
+	zoom: 1;
+}
