@@ -211,6 +211,11 @@ table {
 		width:auto;
 	}
 }
+.lessons { 
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+ }
 
 
 .col-time {
