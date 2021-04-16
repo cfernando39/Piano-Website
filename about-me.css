@@ -23,12 +23,7 @@ header {
 
 }
 
-@media screen and (max-width: 480px) {
-	header {
-		background-image: none;
-	}
-}  
-}
+
 
 header h1{
 	padding-top: 20px;
