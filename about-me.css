@@ -22,6 +22,12 @@ header {
 	padding-left: 20px;
 }
 
+@media screen and (max-width: 480px) {
+	header {
+		background-image: none;
+	}
+}
+
 header h1{
 	padding-top: 20px;
 	color: purple;	
@@ -81,7 +87,7 @@ header h1{
 	
 @media screen and (max-width: 480px) {
 	.site-nav li {
-		width: 80%;
+		width: 100%;
 	}
 
 	.site-nav a {

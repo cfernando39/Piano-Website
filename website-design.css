@@ -112,6 +112,10 @@ header h1{
 	text-decoration: none; 
 }
 
+.toggle-btn-1{
+	display: none;
+}
+
 
 /*Toggle Button for Read more  */ 
 .toggle-btn {
@@ -130,9 +134,7 @@ header h1{
 	text-decoration: none;
 }
 
-.toggle-btn-1{
-	display: none;
-}
+
 
 
 /*Media Query for Toggle Button */ 
