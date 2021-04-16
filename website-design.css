@@ -86,7 +86,16 @@ header h1{
 
 	}
 	.site-nav a { 
-	margin-bottom:5px; }
+	margin-bottom:5px; 
+} 
+
+	header {
+		background-image: none;
+	}
+
+	.toggle-btn-1 {
+		display: none;
+	}
 }
 
 /*Toggle Button for Menu */ 
