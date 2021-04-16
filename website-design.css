@@ -4,7 +4,7 @@ html {
 
 body {
 	font-family: 'AlexBrush' src:
-	url('fonts/AlexBrush-Regular.ttf') format ('ttf');
+	url('piano-website/fonts/AlexBrush-Regular.ttf') format ('ttf');
 	,serif;
 	font-weight: normal;
 	font-style: normal;
@@ -15,11 +15,11 @@ body {
 
 /*Intro Section */ 
 header { 
-	background-image: url(notes.png); 
+	background-image: url(../Websites/notes.png); 
 	background-repeat: no-repeat;
 	background-position: right;
-	background-size: 60%;
-	padding-left: 20px;
+	background-size: 30%;
+	padding-left: 20px; 
 }
 
 
@@ -28,7 +28,9 @@ header h1{
 	padding-top: 20px;
 	color: purple;	
 	margin: 0;
-	font-weight: normal;
+	font-weight: lighter;
+
+
 }
 
 
@@ -64,6 +66,7 @@ header h1{
 	margin-right: 5px;
 }
 
+/* Media Queries for Site Nav elements */ 
 @media screen and (max-width: 700px) {
 	.site-nav li {
 		width: 50%;
@@ -77,32 +80,58 @@ header h1{
 		border: 2px solid purple;
 	}
 }
-
 @media screen and (max-width: 480px) {
 	.site-nav li {
-		width: 50%;
+		width: 80%;
+
 	}
+	.site-nav a { 
+	margin-bottom:5px; }
+}
+
+/*Toggle Button for Menu */ 
+.toggle-btn-1 {
+	color: purple;
+	text-decoration: underline;
+	padding-top:5px;
+	padding-bottom: 5px;
+
+}
+
+.toggle-btn-1:hover { 
+	text-decoration: none; 
 }
 
 
-
+/*Toggle Button for Read more  */ 
 .toggle-btn {
 	color: purple;
+
+
 }
 /*Reveal and Hide Styles*/
 .read-more{
 	text-decoration: underline;
-	color: blue;
+	color: purple;
+	
 }
 
 .read-more:hover {
 	text-decoration: none;
 }
 
-
-.toggle-btn {
+.toggle-btn-1{
 	display: none;
 }
+
+
+/*Media Query for Toggle Button */ 
+@media screen and (min-width: 768px) {
+	.toggle-btn-visible {
+		display: none;
+	}
+}
+
 
 @media screen and (max-width: 767px) {
 	.toggle-btn-visible {
@@ -116,6 +145,7 @@ header h1{
 .toggle-target-expanded {
 	display: block;
 	}
+
 }
 /*end reveal and hide styles*/
 
@@ -123,63 +153,37 @@ header h1{
 
 
 /*End of Intro Section */
+
+
 h1 {color: purple;}
 
 .container { 
-	max-width: 900px;
-	margin-left: auto;
-	margin-right: auto;
+	max-width: 95%;
+	margin:auto;
 	background-color: #FFF;
 	box-sizing: border-box;
-	padding-top: 20px;
-	
+	padding-top: 20px;	
 
 } 
 
-@media screen and (min-width: 1300px) {
-	.container {
-		max-width: auto;
-		font-size: 17px;
+/*Media Queries for Container element*/ 
 
-	}
-}
-@media screen and (min-width: 1200px) {
-	.container {
-		font-size: 17px;
-		margin-right: auto;
-		margin-left: auto;
-		margin-top: 20px;
-		max-width: auto;
-	}
-}
-
-@media screen and (max-width: 768px) {
-	.container {
-		width: auto;
-		margin: 0px;
-		padding: auto;
-	}
-}
-
-@media screen and (max-width: 750px) {
+@media screen and (min-width: 1300px) { 
 	.container { 
-		width: auto; 
-		margin: 0;}
+		font-size: 17px;
+	 }
+@media screen and (min-width: 980px) {
+	.container { 
+	font-size: 17px; 
+	
+	}
 }
 
-@media screen and (max-width: 480px) {
-	.container {
-		padding-right: 20px;
-		padding-left: 20px;
-	}
-}
-@media screen and (max-width: 320px) {
-	.container {
-		width: auto;
-		padding: auto;
-		margin: auto;
-	}
-}
+
+ }
+
+/*End of Media Queries for Container element */ 
+
 
 /*About My Studio Section*/
 
@@ -194,147 +198,77 @@ h2 {
 .content-area { 
 	border-top: 2px solid purple;
 	border-bottom: 2px solid purple; 
-	background-image: url(piano-tiles.png);
+	background-image: url(../Websites/piano-tiles.png);
 	background-repeat: repeat-x;
 	background-size: 60px;
-	padding-bottom: 20px;
 	padding-top: 40px;
+	padding-right:20px;
 	padding-left: 20px;
-	padding-right: 20px;
-	width: auto;
+	width:auto;
 }
 
-
-@media screen and (max-width: 750px) {
-	.content-area { 
-	width: auto;
-	padding-top: 20px;
-	margin: 0; 
-	}
-}
-@media screen and (max-width: 480px) {
-	.content-area {
-		padding-top: 20px;
-	}
-}
-
-@media screen and (max-width: 320px) {
-	.content-area { 
-	padding-top:20px;
-	width: auto;
-	margin: 0; }
-}
+/*Text of main area section */ 
 
 .main-area { 
 	float:left;
 	width: 60%;
-	margin: 20px;
+	margin:auto;
+	box-sizing: border-box;
+	
 	 }
 
-.sidebar {
-	float: right;
-	width: 20%;
-	background-color: lightgrey; 
-	padding-right:10px;
-	padding-top:20px;
-	margin-right: 20px;
-	margin-left: 20px;
+		body li {
+			text-align: center;
+			list-style: none;
+			color: #a982c4;
+		}
 
-}
+/*End of main area section */ 
 
-
-body li {
-	text-align: center;
-	list-style: none;
-	color: #a982c4;
-}
-
-@media screen and (max-width: 768px){ 
-	.main-area { 
-		width: 60%;
-		 }
-
-	.sidebar {
-		width: 20%;
-		margin: 10px;
-		padding: 10px;
-	}
-
-		 }
-@media screen and (max-width: 750px) {
-	.main-area {
-		width: 60%;
-		margin:auto;
-		
-	}
-
-	.sidebar {
-		width: 30%;
-		margin: auto;
-		padding-left:10px;
-		padding-right: 10px;
-
-	}
-}
-
-@media screen and (max-width:700px) {
-	.main-area {
-		width: 60%;
-		margin: auto;
-
-		
-		
-	}
-	.main-area {
-		padding: 0;
-	}
-	.sidebar {
-		width: 30%;
-		margin: auto;
-		padding-top: 20px;
-		
-		
-	}
-}
-
-@media screen and (max-width: 640px) {
-	.main-area {
-		width:auto;
-		padding-top: 20px;
-		float: none;
-	}
-	.sidebar {
-		width: 70%;
-		float: none;
-		padding-top:20px;
-	}
-}
-
-@media screen and (max-width: 500px) { 
-	.main-area { 
-	width: auto;
-	margin: auto;
-	 } 
-
-	 .sidebar {
-	 	padding-top: 20px;
-	 	}
-	 }
-
-@media screen and (max-width: 320px){
-	.main-area, 
-	.sidebar {
-		width: auto;
-		margin: 20px;
-		padding: 10px;
-		float: none;
-	}
-}
+/*Sidebar section*/
 
 h3 {
 	color:red;
 }
 
+.sidebar {
+	float: right;
+	width: 30%; 
+	padding-left: 10px;
+	padding-right:10px;
+	margin-top: 15px;
+	margin-right: 20px;
+	margin-left: 20px;
+	box-sizing: border-box;
+	background-color: lightgrey;
+	
+}
+
+/*End of side bar section */ 
+
+/*Media Query -- Main area and side bar */ 
+@media screen and (min-width: 700px) { 
+	.main-area {
+		padding-left:15px;
+		} 
+		.sidebar { 
+		padding-left:5px;
+		margin-left: 5px; }}
+
+
+@media screen and (max-width: 700px) { 
+	.main-area,
+	.sidebar {
+		width:auto;
+		float:none;
+
+	}
+	.main-area { 
+	padding-left:10px;
+	padding-right: 10px; }
+
+
+ }
 
 
 
@@ -343,6 +277,8 @@ h3 {
 footer {
 	text-align: center;
 	color: purple;
+	padding-bottom: 20px;
+	padding-top:none;
 }
 .row:before,
 .row:after {

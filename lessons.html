@@ -9,19 +9,23 @@
 		<script type="text/javascript" src="jquery.js"></script>
 		<script type="text/javascript" src="cycle2.js"></script>
 		<script type="text/javascript" src="declarativeToggle.js"></script>
+		<script type="text/javascript" src="lightbox.js"></script>
 	
 
 	</head>
 <!--Title -->
 	<body>
+
+	<!--Container starts here! --> 
 		<div class="container">
 		
+		<!-- header section -->
 		<header>
 		<h1>Chiara Fernando's Piano Studio</h1>	
 
-		<span data-toggle-target=".site-nav" class="toggle-btn">MENU</span>
+		<span data-toggle-target=".site-nav" class="toggle-btn-1">MENU</span>
 
-
+		<div class="container" id="site-nav">
 		<nav class="site-nav">
 			<ul class="group"> 
 				<li><a href="studio.html">Home</a></li>
@@ -29,8 +33,11 @@
 				<li><a href="lessons.html">Lessons</a></li>
 				<li><a href="contact.html">Contact</a></li>
 			</ul>
-		</nav>		
+		</nav>	
+		</div>
 		</header>
+		<!--Header ends-->
+
 		
 		<div class="content-area group">
 
@@ -77,14 +84,19 @@
 			</table>
 
 
-			<img src="piano.jpg">
+			<img src="../piano-website/piano.jpg" alt="piano" class="center">
 
 		</div>
 			</div>
 
 		</div>
-	</div>
+	
 	</body>
+	<script src=​"https:​/​/​stackpath.bootstrapcdn.com/​bootstrap/​5.0.0-alpha1/​js/​bootstrap.min.js" integrity=​"sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/​TRlw5xlKIEHpNyvvDShgf/​" crossorigin=​"anonymous">​</script>​
+
+		<script src=​"https:​/​/​cdn.jsdelivr.net/​npm/​popper.js@1.16.0/​dist/​umd/​popper.min.js" integrity=​"sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin=​"anonymous">​</script>​
 
 	<footer><a href="studio.html">Back to Homepage</a></footer>
+</div>
+</body>
 </html>

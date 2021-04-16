@@ -9,6 +9,7 @@
 		<script type="text/javascript" src="jquery.js"></script>
 		<script type="text/javascript" src="cycle2.js"></script>
 		<script type="text/javascript" src="declarativeToggle.js"></script>
+		<script type="text/javascript" src="lightbox.js"></script>
 	</head>
 <!--Title -->
 
@@ -21,8 +22,9 @@
 				<h1>Chiara Fernando's Piano Studio</h1>	
 
 
-				<span data-toggle-target=".site-nav" class="toggle-btn">MENU</span>
+				<span data-toggle-target=".site-nav" class="toggle-btn-1">MENU</span>
 
+				<div class="collapse" id="site-nav">
 				<nav class="site-nav">
 					<ul class="group"> 
 						<li><a href="studio.html">Home</a></li>
@@ -31,6 +33,7 @@
 						<li><a href="contact.html">Contact</a></li>
 					</ul>
 				</nav>	
+			</div>
 			</header>
 		
 		
@@ -38,37 +41,7 @@
 		<!--end container element--> 
 		
 		<div class="content-area group">
-			<div class="row">
-			
-							
-		<div class="sidebar">
-			<div class="cycle-slideshow" data-cycle-slides=".slide" data-cycle-pause-on-hover="true">
-				
-					<span class="cycle-prev">&laquo;</span>
-					<span class="cycle-next">&raquo;</span>
 
-					<span class="cycle-pager"></span>
-
-				
-					<div class="slide">
-						<img src="profile.jpg">
-							<div class="slide-text">
-								<h3>Chiara Fernando's Piano Studio</h3>
-								<p>Chiara Fernando teaches her students on a Yahama piano.</p>
-							</div>
-					</div>
-
-					<div class="slide">
-					<img src="smile.jpg">
-						<div class="slide-text">
-							<h3>Chiara Fernando's Piano Studio</h3>
-							<p>Chiara Fernando teaches her students on a Yahama piano.</p>
-						</div>
-					</div>
-				
-		</div>
-				
-			</div>
 		
 		
 			<div class="main-area">
@@ -86,9 +59,50 @@
 				<p>Chiara will be starting Teachers College in the Fall of 2020 where she hopes to be able to teach music at a high school and continue teaching piano privately.</p>
 				</div>
 			</div>
-		</div>
+		
 
+
+<div class="row">
+			
+							
+		<div class="sidebar">
+			<div class="cycle-slideshow" data-cycle-slides=".slide" data-cycle-pause-on-hover="true">
+			
+				<span class="cycle-prev">&laquo;</span>
+				<span class="cycle-next">&raquo;</span>
+
+					<div class="slide">
+						<img src="../piano-website/profile.jpg" alt="me1">
+							<div class="slide-text">
+								
+								<p>Chiara Fernando teaches her students on a Yahama piano.</p>
+							</div>
+					</div>
+
+
+					<div class="slide">
+					<img src="../piano-website/smile.jpg" alt="me2">
+						<div class="slide-text">
+							
+							<p>Chiara Fernando teaches her students on a Yahama piano.</p>
+						</div>
+					</div>
+				</div>
+
+					<span data-toggle-target=".thumbnails" data-toggle-text="Photos" class="toggle-btn-photos">Photos</span>
+					<div class="thumbnails group">
+	
+						<p><a href="../piano-website/profile.jpg" data-lightbox="gallery" data-title="Chiara Fernando in her piano studio"><img src="../piano-website/profile.jpg"></a></p>
+
+						<p><a href="../piano-website/smile.jpg" data-lightbox="gallery" data-title="Chiara Fernando in her piano studio"><img src="../piano-website/smile.jpg"></a></p>
+
+					</div>
+				</div>
 </div>
+
+		<script src=​"https:​/​/​stackpath.bootstrapcdn.com/​bootstrap/​5.0.0-alpha1/​js/​bootstrap.min.js" integrity=​"sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/​TRlw5xlKIEHpNyvvDShgf/​" crossorigin=​"anonymous">​</script>​
+
+		<script src=​"https:​/​/​cdn.jsdelivr.net/​npm/​popper.js@1.16.0/​dist/​umd/​popper.min.js" integrity=​"sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin=​"anonymous">​</script>​
 
 
 </body>

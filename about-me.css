@@ -4,7 +4,7 @@ html {
 
 body {
 	font-family: 'AlexBrush' src:
-	url('fonts/AlexBrush-Regular.ttf') format ('ttf');
+	url('piano-website/fonts/AlexBrush-Regular.ttf') format ('ttf');
 	,serif;
 	font-weight: normal;
 	font-style: normal;
@@ -15,10 +15,10 @@ body {
 
 /*Intro Section */ 
 header { 
-	background-image: url(notes.png); 
+	background-image: url(../Websites/notes.png); 
 	background-repeat: no-repeat;
 	background-position: right;
-	background-size: 60%;
+	background-size: 30%;
 	padding-left: 20px;
 }
 
@@ -26,7 +26,7 @@ header h1{
 	padding-top: 20px;
 	color: purple;	
 	margin: 0;
-	font-weight: normal;
+	font-weight: lighter;
 }
 
 
@@ -62,6 +62,8 @@ header h1{
 	margin-right: 5px;
 }
 
+/*Media queries for site nav */ 
+
 @media screen and (max-width: 700px) {
 	.site-nav li {
 		width: 50%;
@@ -69,7 +71,7 @@ header h1{
 	}
 
 	.site-nav a {
-		padding:15px;
+		padding:15px 0;
 		margin-right:5px;
 		margin-bottom: 5px;
 		text-align: center;
@@ -79,17 +81,40 @@ header h1{
 	
 @media screen and (max-width: 480px) {
 	.site-nav li {
-		width: 50%;
+		width: 80%;
+	}
+
+	.site-nav a {
+		margin-bottom: 5px;
 	}
 }
 
+/* Toggle Button for Menu */ 
+.toggle-btn-1 {
+	color: purple;
+	text-decoration: underline;
+	padding-top:5px;
+	padding-bottom: 5px;
+
+}
+
+.toggle-btn-1:hover { 
+	text-decoration: none; 
+}
+
+.toggle-btn-1 {
+	display: none;
+}
+
+/*Toogle Button for Read-More */ 
 .toggle-btn {
 	color: purple;
+	display: none;
 }
 /*Reveal and Hide Styles*/
 .read-more{
 	text-decoration: underline;
-	color: blue;
+	color: purple;
 }
 
 .read-more:hover {
@@ -97,13 +122,37 @@ header h1{
 }
 
 
-.toggle-btn {
+
+/*toggle button photos*/ 
+
+.toggle-btn-photos {
+	color:purple;
+	text-decoration: underline;
+}
+
+.toggle-btn-photos:hover {
+	text-decoration: none;
+}
+
+.toggle-btn-photos {
 	display: none;
 }
-@media screen and (max-width: 767px) {
+
+
+
+/* Mediau Query for Toggle Button */ 
+
+@media screen and (min-width: 700px) {
+	.toggle-btn-visible {
+		display: none;
+	}
+}
+
+@media screen and (max-width: 600px) {
 	.toggle-btn-visible {
 	display:block;
 	}
+
 
 .toggle-target-hidden {
 	display: none;
@@ -112,7 +161,37 @@ header h1{
 .toggle-target-expanded {
 	display: block;
 	}
+
+
 }
+
+
+@media screen and (max-width: 700px){ 
+	.toggle-btn-photos-visible {
+		display: block;
+	}
+	
+}
+
+	 
+@media screen and (max-width: 480px) {
+	.toggle-btn-photos-visible {
+		display:block;
+	}
+
+	}
+
+@media screen and (min-width: 481px) {
+	.toggle-btn-photos-visible {
+		display: none;
+	}
+
+	.toggle-target-expanded {
+		display: block;
+	}
+}
+
+
 /*end reveal and hide styles*/
 
 /* a references the link element*/ 
@@ -122,9 +201,8 @@ header h1{
 h1 {color: purple;}
 
 .container { 
-	max-width: 900px;
-	margin-left:auto;
-	margin-right: auto;
+	max-width: 95%;
+	margin: auto;
 	background-color: #FFF;
 	box-sizing: border-box;
 	padding-top: 20px;
@@ -132,33 +210,18 @@ h1 {color: purple;}
 } 
 
 @media screen and (min-width: 1300px) {
-	body {
-		font-size: 16px;
-	}
-
-	.container {
-		max-width: 1200px;
+	.container{
 		font-size: 17px;
 	}
+
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 980px) {
 	.container {
 		font-size: 17px;
-		margin-right: auto;
-		margin-left: auto;
-		margin-top: 20px;
-		padding-right: 20px;
-		padding-left: 20px;
-		max-width: 1200px;
+	
 	}
-}
 
-@media screen and (max-width: 480px) {
-	.container {
-		padding-right: 30px;
-		padding-left: 30px;
-	}
 }
 
 /*Content Area*/ 
@@ -176,137 +239,153 @@ h2 {
 	width: auto;
 	border-top: 2px solid purple; 
 	border-bottom: 2px solid purple;
-	background-image: url(piano-tiles.png);
+	background-image: url(../Websites/piano-tiles.png);
 	background-repeat: repeat-x;
 	background-size: 60px;
 	padding-bottom: 20px;
 	padding-left: 20px;
 	padding-right: 20px;
 	padding-top: 40px;
+	
 }
 
-@media screen and (max-width: 480px) {
-	.content-area {
-		padding-top: 20px;
-		padding-left: 20px;
-		padding-right: 20px;
-		width: auto;
-	}
-	.sidebar {
-		padding-top:40px;
-	}
-	.main-area {
-		margin:auto;
-		padding-left: auto;
-		padding-right: auto;
-	}
-}
+
 
 .main-area {
 	max-width:60%;
 	float:right;
 	margin:auto;
-	}
+	box-sizing: border-box;
 
-@media screen and (max-width: 900px) {
-	.content-area {
-		padding-top: 20px;
-		width: auto;
 	}
-	.sidebar {
-		padding-top:40px;
-	}
-
-	h2 {
-		padding-top: 30px;
-	}
-	.main-area {
-		margin:auto;
-	}
-}
-
-
-@media screen and (max-width: 700px) {
-	.main-area,
-	.content-area, {
-		width: auto;
-		float:none;
-		
-	}
-	.main-area {
-		padding-right: 0;
-		padding-top: 20px;
-	}
-
-	.sidebar {
-		padding-top:40px;
-	}
-	h2 {
-		padding-top:20px;
-	}
-}
 
 .sidebar {
 	float:left;
 	width:30%;
 	padding-left: 10px;
 	padding-right: 10px;
+	box-sizing: border-box;
+
 	
 }
 
-img {
-	width: 120%;
-	float:left;
+/*Media queries for Content area, main area, sidebar */ 
+@media screen and (min-width: 701px) {
+	.thumbnails {
+		display: none;
+	}
 }
+
+
+@media screen and (max-width: 900px) {
+	.main-area{
+		float:none; 
+		max-width: 100%;
+
+		
+		}
+	.sidebar {
+		float:none;
+		width: 100%;
+		padding-right: 0;
+		
+	}
+	.cycle-slideshow {
+		display: none;
+	}
+	.thumbnails {
+		margin:auto;
+		display: block;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.cycle-slideshow {
+		display: none;
+
+	}
+	.thumbnails img { 
+	max-width: 80%; 
+	display: none;}
+}
+
+
+img {
+	max-width:120%;
+	float:left;
+	box-sizing: border-box;
+	height: auto;
+}
+
+/*Slide show info*/ 
 
 .cycle-slideshow { 
 	margin-bottom: 30px;
+	box-sizing: border-box;
+	width: 100%;
+
  }
 
 .slide { 
 	position: relative; 
 	width: 100%;
-
+	height: auto;
+	padding-top:15px;
 }
 
 .slide img {
-	display: block;
+	display:block;
 }
 
 
-
 .slide-text {
+	bottom:0;
 	position: absolute;
 	width: 120%;
 	bottom:0;
 	padding:20px;
-	bottom: 0;
+	padding-top:5px;
 	color:white;
 	background-color: rgba(0, 0, 0, .7);
 	box-sizing: border-box;
 
 }
 
-@media screen and (max-width: 767px) {
-	.slide-text {
-		position: static;
-		background-color: #000;
-
-	}
+.cycle-prev, .cycle-next {
+	position: absolute;
+	top:30%;
+	background-color: rgba(0, 0, 0, .35);
+	color:#FFF;
+	padding-bottom: 1px 10px;
+	display: block;
+	cursor: pointer;
+	font-size: 130%; 
+	z-index: 1000;
+	opacity: 0;
+	transition: .5s;
+	max-width: -50%;
 }
 
-.slide-text h3 {
-	margin:0;
-	padding-top: 5px;
-	width: 100%;
-}
-
-
-	
+.cycle-next {  
+right:0;
+top:30%;}
 
 .cycle-slideshow:hover .cycle-prev,
 .cycle-slideshow:hover .cycle-next {
 	opacity: 1;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+	.slide-text {
+		position: static;
+		background-color: #000;
+	
+
+
+	}
 }
 
 .cycle-pager {
@@ -330,40 +409,56 @@ img {
 	cursor: pointer;
 }
 
-
-@media screen and (max-width: 767px) {
-	.content-area {
-		padding:0;
-	}
-}
-@media screen and (max-width:700px) {
-	.main-area,
-	.content-area,{
-		width:auto;
-		float:none;
-	}
-	.main-area {
-		padding-right: 0;
-	}
+/*thumbnail section */ 
+.thumbnails {
+	margin-right: 15px;
+	padding:5px;
+	
 }
 
-
-
-@media screen and (max-width: 1023px) {
-  .push-down-sm {
-    margin-bottom: 30px;
-  }
+.thumbnails a{
+	float: left;
+	width: 50%;
+	box-sizing: border-box;
 }
 
-@media screen and (max-width: 767px) {
-  .push-down-sm {
-    margin-bottom: 15px;
-  }
+.thumbnails img {
+	display: block;
+	transition: all .2s; 
+	padding-right: 5px;
+	margin-right: none;
+	box-sizing: border-box;
+	width: 100%;
+
+	
 }
+
+.thumbnails:hover img{
+	opacity: .6;
+	transform: scale(.92);
+}
+
+.thumbnails img:hover {
+	opacity:1;
+	transform: rotate(2deg);
+	box-shadow: 0 0 7px rgba(0, 0, 0, .5);
+}
+
+
+.center {
+	display: block;
+
+}
+
+
+
+
+
 
 footer {
 	text-align: center;
-}
+	padding-top: 20px;
+	padding-bottom: 20px;}
 
 
 .group:before,
