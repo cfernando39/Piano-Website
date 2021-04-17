@@ -228,10 +228,13 @@ h2 {
 	
 	 }
 
-		body li {
+		li {
 			text-align: center;
 			list-style: none;
 			color: #a982c4;
+			display: block;
+			margin-right: auto;
+			margin-left: auto;
 		}
 
 /*End of main area section */ 
