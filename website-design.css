@@ -23,6 +23,14 @@ header {
 }
 
 
+@media screen and (max-width: 480px) {
+	header {
+		background-image: none;
+	}
+	h1 {
+		font-size: 150%;
+	}
+}
 
 header h1{
 	padding-top: 20px;
@@ -33,14 +41,7 @@ header h1{
 
 }
 
-@media screen and (max-width: 480px) {
-	header {
-		background-image: none;
-	}
-	h1 {
-		font-size: 150%;
-	}
-}
+
 
 
 
