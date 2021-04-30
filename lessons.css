@@ -85,6 +85,7 @@ header h1{
 		margin-bottom: 5px;
 		text-align: center;
 		border: 2px solid purple;
+		padding-top:0;
 	}
 }
 @media screen and (max-width: 480px) {
