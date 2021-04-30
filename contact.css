@@ -156,7 +156,7 @@ h1 {color: purple;}
 
 	}
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 980px) {
 	.container {
 		font-size: 17px;
 		
