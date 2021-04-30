@@ -219,6 +219,13 @@ h2 {
 	width:auto;
 }
 
+
+@media screen and (min-width: 1200px) {
+	.content-area {
+		font-size: 20px;
+	}
+} 
+
 /*Text of main area section */ 
 
 .main-area { 
