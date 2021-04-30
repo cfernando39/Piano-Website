@@ -277,7 +277,7 @@ h3 {
 @media screen and (max-width: 700px) { 
 	.main-area,
 	.sidebar {
-		width:auto;
+		width:100%;
 		float:none;
 
 	}
