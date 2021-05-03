@@ -40,6 +40,7 @@ header h1{
 	margin: 0;
 	font-weight: lighter;
 }
+}
 
 
 /*site nav*/
@@ -73,7 +74,7 @@ header h1{
 	float: left;
 	margin-right: 5px;
 }
-}
+
 
 /* Media Queries for Site Nav elements */ 
 @media screen and (max-width: 700px) {
