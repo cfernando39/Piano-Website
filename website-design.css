@@ -220,6 +220,10 @@ h2 {
 	}
 } 
 
+@media screen and (min-width: 980px) {
+	.content-area {
+		font-size:17px;
+	}
 }
 
 /*Text of main area section */ 
