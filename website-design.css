@@ -88,6 +88,7 @@ header h1{
 		border: 2px solid purple;
 	}
 }
+
 @media screen and (max-width: 480px) {
 	.site-nav li {
 		width: 100%;
