@@ -280,7 +280,7 @@ h3 {
 		padding-top:5px;
 		margin-top: 5px;
 	}
-	}
+}
 
 
 @media screen and (max-width: 700px) { 
@@ -297,11 +297,12 @@ h3 {
 
 	.sidebar {
 		margin-top: none;
+		margin-right: 15px;
 	}
 
 
  }
- 
+
 
 
 
