@@ -12,7 +12,7 @@ body {
 	text-align: justify;
 }
 
-
+}
 /*Intro Section */ 
 header { 
 	background-image: url(../Piano-Website/notes.png); 
@@ -30,8 +30,6 @@ header {
 	h1 {
 		font-size: 150%;
 	}
-
-
 }
 
 header h1 {
@@ -39,8 +37,6 @@ header h1 {
 	color: purple;	
 	margin: 0;
 	font-weight: lighter;
-
-
 }
 
 
