@@ -12,7 +12,7 @@ body {
 	text-align: justify;
 }
 
-}
+
 /*Intro Section */ 
 header { 
 	background-image: url(../Piano-Website/notes.png); 
@@ -38,7 +38,7 @@ header h1 {
 	margin: 0;
 	font-weight: lighter;
 }
-
+}
 
 /*site nav*/
 .site-nav {
@@ -95,7 +95,7 @@ header h1 {
 		margin-right: 40px;
 	}
 
-
+}
 }
 
 /*Menu toggle button */ 
