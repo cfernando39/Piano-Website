@@ -31,7 +31,7 @@ header {
 		font-size: 150%;
 	}
 }
-
+}
 
 header h1{
 	padding-top: 20px;
@@ -178,6 +178,10 @@ h1 {color: purple;}
 
 /*Media Queries for Container element*/ 
 
+@media screen and (min-width: 1300px) { 
+	.container { 
+		font-size: 17px;
+	 }
 @media screen and (min-width: 980px) {
 	.container { 
 		font-size: 17px; 
