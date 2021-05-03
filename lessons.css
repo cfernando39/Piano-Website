@@ -215,6 +215,7 @@ h2 {
 
 
 
+
 table { 
 	border-spacing: 0px; 
 	border-collapse: collapse;
@@ -229,6 +230,7 @@ table {
 		width:auto;
 	}
 }
+
 .lessons { 
 	display: block;
 	margin-right: auto;
