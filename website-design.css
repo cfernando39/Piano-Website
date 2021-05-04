@@ -46,6 +46,7 @@ header h1{
 .site-nav {
 	padding-top: 30px;
 }
+
 .site-nav a { 
 	display: block;
 	color: purple;
@@ -80,6 +81,7 @@ header h1{
 		width: 50%;
 		margin-right: 0;
 	}
+
 	.site-nav a {
 		padding: 15px 0;
 		margin-right: 5px;
@@ -114,9 +116,8 @@ header h1{
 .toggle-btn {
 	color: purple;
 	display: none;
-
-
 }
+
 /*Reveal and Hide Styles*/
 .read-more{
 	text-decoration: underline;
@@ -155,6 +156,7 @@ header h1{
 	}
 
 }
+
 /*end reveal and hide styles*/
 
 /* a references the link element*/ 
@@ -187,7 +189,7 @@ h1 {color: purple;}
 }
 
 
- 
+ }
 
 /*End of Media Queries for Container element */ 
 
