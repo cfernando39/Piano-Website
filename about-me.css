@@ -290,7 +290,7 @@ h2 {
 		}
 	.sidebar {
 		float:none;
-		width: 150%;
+		width: 100%;
 		padding-right: 0;
 		
 	}
@@ -302,6 +302,12 @@ h2 {
 		display: block;
 	}
 }
+
+@media screen and (max-width: 700px) { 
+	.sidebar {
+		width: 150%;
+		}
+		}
 
 @media screen and (max-width: 480px) {
 	.cycle-slideshow {
